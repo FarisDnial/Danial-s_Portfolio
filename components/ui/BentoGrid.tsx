@@ -4,8 +4,7 @@ import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
-// import Lottie from "react-lottie";
-
+import Lottie from "react-lottie";
 import { cn } from "@/utils/cn";
 
 
@@ -54,7 +53,7 @@ export const BentoGridItem = ({
     spareImg?: string;
 }) => {
     const leftLists = ["ReactJS", "Express", "Typescript"];
-    const rightLists = ["PHP", "MongoDB", "Firebase"];
+    const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
 
     const [copied, setCopied] = useState(false);
 
@@ -115,7 +114,7 @@ export const BentoGridItem = ({
                 {id === 6 && (
                     // add background animation , remove the p tag
                     <BackgroundGradientAnimation>
-                        <div className="absolute z-50 flex items-center justify-center text-white font-bold" />
+                        <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
                     </BackgroundGradientAnimation>
                 )}
 
@@ -181,7 +180,10 @@ export const BentoGridItem = ({
                                     }`}
                             >
                                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                                {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
+                                <Lottie
+                                    options={defaultOptions}
+                                    height={200}
+                                    width={400} />
                             </div>
 
                             <MagicButton

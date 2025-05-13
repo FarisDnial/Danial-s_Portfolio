@@ -1,5 +1,6 @@
 export const navItems = [
     { name: "About", link: "#about" },
+    { name: "Education", link: "#backgroundEdu" },
     { name: "Projects", link: "#projects" },
     // { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
@@ -171,34 +172,44 @@ export const companies = [
 ];
 
 export const workExperience = [
+    // {
+    //     id: 1,
+    //     title: "Universiti Teknologi Mara ",
+    //     desc1: "Diploma in Halal Industry ",
+    //     desc2: "CGPA - 3.90 (Oct 2018 - Feb 2020)",
+    //     className: "md:col-span-2",
+    //     thumbnail: "/uitm.svg",
+    // },
     {
         id: 1,
-        title: "Frontend Engineer Intern",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+        title: "Universiti Teknologi Mara ",
+        desc1: "Bachelor in Halal Industry Management ",
+        desc2: "CGPA - 3.81 (March 2021 - July 2023)",
         className: "md:col-span-2",
-        thumbnail: "/exp1.svg",
+        thumbnail: "/uitm.svg",
     },
     {
         id: 2,
-        title: "Mobile App Dev - JSM Tech",
-        desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+        title: "Sigma School",
+        desc1: "Complete Software Development Course",
+        desc2: "(January 2024 - July 2024)",
         className: "md:col-span-2", // change to md:col-span-2
-        thumbnail: "/exp2.svg",
+        thumbnail: "/sigma.svg",
     },
-    {
-        id: 3,
-        title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-        className: "md:col-span-2", // change to md:col-span-2
-        thumbnail: "/exp3.svg",
-    },
-    {
-        id: 4,
-        title: "Lead Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
-        className: "md:col-span-2",
-        thumbnail: "/exp4.svg",
-    },
+    // {
+    //     id: 3,
+    //     title: "Freelance App Dev Project",
+    //     desc1: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    //     className: "md:col-span-2", // change to md:col-span-2
+    //     thumbnail: "/exp3.svg",
+    // },
+    // {
+    //     id: 4,
+    //     title: "Lead Frontend Developer",
+    //     desc1: "Developed and maintained user-facing features using modern frontend technologies.",
+    //     className: "md:col-span-2",
+    //     thumbnail: "/exp4.svg",
+    // },
 ];
 
 export const socialMedia = [
